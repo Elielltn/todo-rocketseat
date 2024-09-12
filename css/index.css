@@ -1,0 +1,61 @@
+#header {
+  background-color: var(--gray-330);
+  max-width: 100vw;
+  height: 20rem;
+  text-align: center;
+  padding-block: 7.2rem 8rem;
+}
+
+#logo {
+  max-width: 14rem;
+  height: auto;
+}
+
+main {
+  max-width: 73.6rem;
+  margin: 0 auto;
+}
+
+#new-task {
+  height: 5.2rem;
+  transform: translateY(-50%);
+  max-width: 73.6rem;
+  gap: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+#create-bar {
+  font: var(--fn-input);
+  box-sizing: border-box;
+  height: 5.2rem;
+  max-width: 61.8rem;
+  width: 100%;
+  border-radius: 0.8rem;
+  background-color: var(--gray-100);
+  border: 1px solid var(--gray-330);
+  padding: 1.5rem 1.8rem;
+  color: var(--gray-500);
+}
+
+#btn-create {
+  width: 11rem;
+  height: 5.2rem;
+  background-color: var(--purple-dark);
+  border-radius: 0.8rem;
+  color: var(--gray-100);
+  font: var(--fn-button);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+
+
+  & #create-icon {
+    height: 2rem;
+    width: 2rem;
+    & path {
+      fill: var(--gray-100);
+    }
+  }
+}
