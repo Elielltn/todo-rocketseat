@@ -1,6 +1,15 @@
-@media (max-width: 375px) {
+@media (max-width: 34em) {
   main {
-  max-width: 32.7rem;
-  margin: 0 auto;
+    padding-inline: 2.4rem;
+  }
+
+  #btn-create-span {
+    display: none;
+  }
 }
+
+@media (max-width: 44em) {
+  main {
+    padding-inline: 2.4rem;
+  }
 }
