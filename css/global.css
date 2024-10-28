@@ -30,7 +30,7 @@
   --fn-subtitle: 600 1.4rem/1.2 var(--ff);
   --fn-tag: 700 1.2rem/1.2 var(--ff);
 
-  --text-md: 400 1.4rem/1, 4 var(--ff);
+  --text-md: 400 1.4rem/1.4 var(--ff);
   --text-sm: 400 1.2rem/1.4 var(--ff);
 }
 
@@ -49,10 +49,18 @@ button {
   all: unset;
 }
 
+.margin-bottom-sm{
+  margin-bottom: 2.4rem;
+}
+
 .margin-bottom-md {
   margin-bottom: 6.6rem;
 }
 
 .hidden{
-    display: none;
+  display: none;
+}
+
+.flex{
+  display: flex;
 }
